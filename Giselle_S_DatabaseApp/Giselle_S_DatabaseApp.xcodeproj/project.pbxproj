@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FEBF16A24E46CDF001B5B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF16924E46CDF001B5B5A /* AppDelegate.swift */; };
+		2FEBF16C24E46CDF001B5B5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF16B24E46CDF001B5B5A /* SceneDelegate.swift */; };
+		2FEBF16E24E46CDF001B5B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF16D24E46CDF001B5B5A /* ViewController.swift */; };
+		2FEBF17124E46CDF001B5B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF16F24E46CDF001B5B5A /* Main.storyboard */; };
+		2FEBF17424E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF17224E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodeld */; };
+		2FEBF17624E46CE1001B5B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF17524E46CE1001B5B5A /* Assets.xcassets */; };
+		2FEBF17924E46CE1001B5B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF17724E46CE1001B5B5A /* LaunchScreen.storyboard */; };
+		2FEBF18424E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF18324E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.swift */; };
+		2FEBF18F24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF18E24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests.swift */; };
+		2FEBF19D24E46DEE001B5B5A /* othertree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF19C24E46DEE001B5B5A /* othertree.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FEBF18024E46CE1001B5B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEBF15E24E46CDF001B5B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEBF16524E46CDF001B5B5A;
+			remoteInfo = Giselle_S_DatabaseApp;
+		};
+		2FEBF18B24E46CE1001B5B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEBF15E24E46CDF001B5B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEBF16524E46CDF001B5B5A;
+			remoteInfo = Giselle_S_DatabaseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FEBF16624E46CDF001B5B5A /* Giselle_S_DatabaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giselle_S_DatabaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBF16924E46CDF001B5B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FEBF16B24E46CDF001B5B5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FEBF16D24E46CDF001B5B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FEBF17024E46CDF001B5B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FEBF17324E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Giselle_S_DatabaseApp.xcdatamodel; sourceTree = "<group>"; };
+		2FEBF17524E46CE1001B5B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FEBF17824E46CE1001B5B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FEBF17A24E46CE1001B5B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEBF17F24E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Giselle_S_DatabaseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBF18324E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giselle_S_DatabaseAppTests.swift; sourceTree = "<group>"; };
+		2FEBF18524E46CE1001B5B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEBF18A24E46CE1001B5B5A /* Giselle_S_DatabaseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Giselle_S_DatabaseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBF18E24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giselle_S_DatabaseAppUITests.swift; sourceTree = "<group>"; };
+		2FEBF19024E46CE2001B5B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEBF19C24E46DEE001B5B5A /* othertree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = othertree.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FEBF16324E46CDF001B5B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF17C24E46CE1001B5B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF18724E46CE1001B5B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FEBF15D24E46CDF001B5B5A = {
+			isa = PBXGroup;
+			children = (
+				2FEBF16824E46CDF001B5B5A /* Giselle_S_DatabaseApp */,
+				2FEBF18224E46CE1001B5B5A /* Giselle_S_DatabaseAppTests */,
+				2FEBF18D24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests */,
+				2FEBF16724E46CDF001B5B5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FEBF16724E46CDF001B5B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF16624E46CDF001B5B5A /* Giselle_S_DatabaseApp.app */,
+				2FEBF17F24E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.xctest */,
+				2FEBF18A24E46CE1001B5B5A /* Giselle_S_DatabaseAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FEBF16824E46CDF001B5B5A /* Giselle_S_DatabaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF16924E46CDF001B5B5A /* AppDelegate.swift */,
+				2FEBF16B24E46CDF001B5B5A /* SceneDelegate.swift */,
+				2FEBF16D24E46CDF001B5B5A /* ViewController.swift */,
+				2FEBF19C24E46DEE001B5B5A /* othertree.jpg */,
+				2FEBF16F24E46CDF001B5B5A /* Main.storyboard */,
+				2FEBF17524E46CE1001B5B5A /* Assets.xcassets */,
+				2FEBF17724E46CE1001B5B5A /* LaunchScreen.storyboard */,
+				2FEBF17A24E46CE1001B5B5A /* Info.plist */,
+				2FEBF17224E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodeld */,
+			);
+			path = Giselle_S_DatabaseApp;
+			sourceTree = "<group>";
+		};
+		2FEBF18224E46CE1001B5B5A /* Giselle_S_DatabaseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF18324E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.swift */,
+				2FEBF18524E46CE1001B5B5A /* Info.plist */,
+			);
+			path = Giselle_S_DatabaseAppTests;
+			sourceTree = "<group>";
+		};
+		2FEBF18D24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF18E24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests.swift */,
+				2FEBF19024E46CE2001B5B5A /* Info.plist */,
+			);
+			path = Giselle_S_DatabaseAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEBF16524E46CDF001B5B5A /* Giselle_S_DatabaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBF19324E46CE2001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_DatabaseApp" */;
+			buildPhases = (
+				2FEBF16224E46CDF001B5B5A /* Sources */,
+				2FEBF16324E46CDF001B5B5A /* Frameworks */,
+				2FEBF16424E46CDF001B5B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Giselle_S_DatabaseApp;
+			productName = Giselle_S_DatabaseApp;
+			productReference = 2FEBF16624E46CDF001B5B5A /* Giselle_S_DatabaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FEBF17E24E46CE1001B5B5A /* Giselle_S_DatabaseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBF19624E46CE2001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_DatabaseAppTests" */;
+			buildPhases = (
+				2FEBF17B24E46CE1001B5B5A /* Sources */,
+				2FEBF17C24E46CE1001B5B5A /* Frameworks */,
+				2FEBF17D24E46CE1001B5B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEBF18124E46CE1001B5B5A /* PBXTargetDependency */,
+			);
+			name = Giselle_S_DatabaseAppTests;
+			productName = Giselle_S_DatabaseAppTests;
+			productReference = 2FEBF17F24E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FEBF18924E46CE1001B5B5A /* Giselle_S_DatabaseAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBF19924E46CE2001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_DatabaseAppUITests" */;
+			buildPhases = (
+				2FEBF18624E46CE1001B5B5A /* Sources */,
+				2FEBF18724E46CE1001B5B5A /* Frameworks */,
+				2FEBF18824E46CE1001B5B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEBF18C24E46CE1001B5B5A /* PBXTargetDependency */,
+			);
+			name = Giselle_S_DatabaseAppUITests;
+			productName = Giselle_S_DatabaseAppUITests;
+			productReference = 2FEBF18A24E46CE1001B5B5A /* Giselle_S_DatabaseAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FEBF15E24E46CDF001B5B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Giselle Salgado";
+				TargetAttributes = {
+					2FEBF16524E46CDF001B5B5A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2FEBF17E24E46CE1001B5B5A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2FEBF16524E46CDF001B5B5A;
+					};
+					2FEBF18924E46CE1001B5B5A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2FEBF16524E46CDF001B5B5A;
+					};
+				};
+			};
+			buildConfigurationList = 2FEBF16124E46CDF001B5B5A /* Build configuration list for PBXProject "Giselle_S_DatabaseApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FEBF15D24E46CDF001B5B5A;
+			productRefGroup = 2FEBF16724E46CDF001B5B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEBF16524E46CDF001B5B5A /* Giselle_S_DatabaseApp */,
+				2FEBF17E24E46CE1001B5B5A /* Giselle_S_DatabaseAppTests */,
+				2FEBF18924E46CE1001B5B5A /* Giselle_S_DatabaseAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEBF16424E46CDF001B5B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF17924E46CE1001B5B5A /* LaunchScreen.storyboard in Resources */,
+				2FEBF17624E46CE1001B5B5A /* Assets.xcassets in Resources */,
+				2FEBF19D24E46DEE001B5B5A /* othertree.jpg in Resources */,
+				2FEBF17124E46CDF001B5B5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF17D24E46CE1001B5B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF18824E46CE1001B5B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEBF16224E46CDF001B5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF16E24E46CDF001B5B5A /* ViewController.swift in Sources */,
+				2FEBF16A24E46CDF001B5B5A /* AppDelegate.swift in Sources */,
+				2FEBF17424E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodeld in Sources */,
+				2FEBF16C24E46CDF001B5B5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF17B24E46CE1001B5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF18424E46CE1001B5B5A /* Giselle_S_DatabaseAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF18624E46CE1001B5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF18F24E46CE2001B5B5A /* Giselle_S_DatabaseAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FEBF18124E46CE1001B5B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEBF16524E46CDF001B5B5A /* Giselle_S_DatabaseApp */;
+			targetProxy = 2FEBF18024E46CE1001B5B5A /* PBXContainerItemProxy */;
+		};
+		2FEBF18C24E46CE1001B5B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEBF16524E46CDF001B5B5A /* Giselle_S_DatabaseApp */;
+			targetProxy = 2FEBF18B24E46CE1001B5B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FEBF16F24E46CDF001B5B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEBF17024E46CDF001B5B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FEBF17724E46CE1001B5B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEBF17824E46CE1001B5B5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FEBF19124E46CE2001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FEBF19224E46CE2001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEBF19424E46CE2001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_DatabaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-DatabaseApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FEBF19524E46CE2001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_DatabaseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-DatabaseApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FEBF19724E46CE2001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_DatabaseAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-DatabaseAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giselle_S_DatabaseApp.app/Giselle_S_DatabaseApp";
+			};
+			name = Debug;
+		};
+		2FEBF19824E46CE2001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_DatabaseAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-DatabaseAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giselle_S_DatabaseApp.app/Giselle_S_DatabaseApp";
+			};
+			name = Release;
+		};
+		2FEBF19A24E46CE2001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_DatabaseAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-DatabaseAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Giselle_S_DatabaseApp;
+			};
+			name = Debug;
+		};
+		2FEBF19B24E46CE2001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_DatabaseAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-DatabaseAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Giselle_S_DatabaseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEBF16124E46CDF001B5B5A /* Build configuration list for PBXProject "Giselle_S_DatabaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF19124E46CE2001B5B5A /* Debug */,
+				2FEBF19224E46CE2001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEBF19324E46CE2001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_DatabaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF19424E46CE2001B5B5A /* Debug */,
+				2FEBF19524E46CE2001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEBF19624E46CE2001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_DatabaseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF19724E46CE2001B5B5A /* Debug */,
+				2FEBF19824E46CE2001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEBF19924E46CE2001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_DatabaseAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF19A24E46CE2001B5B5A /* Debug */,
+				2FEBF19B24E46CE2001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FEBF17224E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FEBF17324E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodel */,
+			);
+			currentVersion = 2FEBF17324E46CDF001B5B5A /* Giselle_S_DatabaseApp.xcdatamodel */;
+			path = Giselle_S_DatabaseApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FEBF15E24E46CDF001B5B5A /* Project object */;
+}
